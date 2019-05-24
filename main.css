@@ -449,3 +449,42 @@ section a:hover {
     background-position: left;
     color: white;
 }
+
+aside {
+    padding: 10px;
+    display: block;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 auto;
+    font-size: calc(24px + 1.6vw);
+    background: repeating-linear-gradient(45deg, #6DC6A8, #6DC6A8 20px, rgb(98, 187, 157) 20px, rgb(98, 187, 157) 50%);
+    border-bottom: rgb(42, 144, 110) solid 10px;
+    background-size: 60px 60px, 20px 20px;
+    
+
+}
+
+aside.blue {
+    background: #004672;
+    background-image:
+      radial-gradient(#005183 30%, transparent 0), 
+      radial-gradient(#005183 30%, transparent 0);
+    background-size: 160px 160px;
+    background-position: 0 0, 80px 80px;
+    border-bottom: #033a5c solid 10px;
+}
+
+aside h1 {
+    display: inline-block;
+    margin: 20px 0 32px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1em;
+    background: rgb(247, 205, 19);
+    color: #171717;
+    box-shadow: 10px 10px 0 #171717;
+    padding: 6px;
+    text-align: center;
+}
